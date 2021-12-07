@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(39, 38, 38);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+}
+header{
+    text-align: center;
+    color: hotpink;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.description{
+    color: white;
+}
+
+.description p{
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px dashed white;
+    width: 400px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.card h2{
+    margin-top: -40px;
+    text-align: center;
+    color: hotpink;
+    border: 1px solid white;
+    padding: 15px 10px;
+    background-color: rgb(39, 38, 38);
+
+    border-radius: 8px; 
+    transition: all 0.5s ease-in-out;
+
+}
+
+.card p{
+    color: hotpink;
+    font-size: 16px;
+}
+
+.card code{
+    background-image: linear-gradient( rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
+    padding: 10px 5px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: white;
+    min-height: 200px;
+}
+
+.card:hover, .card:hover h2{ 
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1); }
